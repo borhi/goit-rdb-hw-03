@@ -21,7 +21,7 @@
 ```
 goit-rdb-hw-03/
 ├── README.md
-├── hw3_nyc_taxi.ipynb        # основний notebook
+├── goit_rdb_hw_03.ipynb        # основний notebook
 ├── .gitignore
 └── data/
     └── hw3_taxi_sample.csv   # вибірка, яку notebook завантажує через COPY FROM STDIN
@@ -38,7 +38,7 @@ git clone <repo-url> goit-rdb-hw-03
 cd goit-rdb-hw-03
 python -m venv .venv && source .venv/bin/activate
 pip install jupyter
-jupyter notebook hw3_nyc_taxi.ipynb
+jupyter notebook goit_rdb_hw_03.ipynb
 ```
 
 Далі виконайте **Kernel → Restart & Run All**. Перша комірка сама встановить залежності (`pgserver`, `psycopg2-binary`, `sqlalchemy`, `pandas`, `pyarrow`).
